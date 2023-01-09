@@ -1,0 +1,6 @@
+print ("Reverse sentence program")
+print ("")
+enter_sentence = input("please enter a sentence> ")
+reverse_sentence = (enter_sentence [:: -1])
+print("")
+print (reverse_sentence)

@@ -1,0 +1,13 @@
+print("name display program")
+print("")
+name = input("enter your first name> ")
+second = input("enter your last name> ")
+print("~" + ("~" * 45) + "~")
+print("~" +(name.upper() +" " + second.upper()).ljust(45) + "~")
+print("~" + (" " * 45) + "~")
+print("~" +(name.capitalize() +" " + second.capitalize()).center(45) + "~")
+print("~" + (" " * 45) + "~")
+print("~" +(name.lower()+" "+ second.lower()).rjust(45) + "~")
+print("~" + (" " * 45) + "~")
+print("~" + ("~" * 45) + "~")
+
